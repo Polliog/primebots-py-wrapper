@@ -1,0 +1,4 @@
+# Project exclude paths
+/build/
+/dist/
+/pbpy.egg-info/
