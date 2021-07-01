@@ -5,7 +5,7 @@ with open('README.md') as readme_file:
 
 setup_args = dict(
     name='pbpy',
-    version='1.0.0',
+    version='1.0.2',
     description="Wrapper per l'api di primebots.it",
     long_description_content_type="text/markdown",
     long_description=README,
@@ -14,12 +14,11 @@ setup_args = dict(
     author='Giuseppe Pollio',
     author_email='polliog@protonmail.com',
     keywords=['primebots', 'pbpy'],
-    url='https://pypi.org/project/pbpy/1.0.0/',
+    url='https://pypi.org/project/pbpy',
     download_url='https://github.com/Polliog/primebots-py-wrapper'
 )
 
 install_requires = [
-    'logging',
     'requests',
     'discord.py',
     'asyncio',
